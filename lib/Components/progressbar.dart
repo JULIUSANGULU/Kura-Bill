@@ -13,6 +13,6 @@ class Progressbar extends StatefulWidget {
 class _ProgressbarState extends State<Progressbar> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return Container();
   }
 }

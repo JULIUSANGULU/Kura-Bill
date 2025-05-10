@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:kura_bill/Pages/onboardingscreen1.dart';
 import 'package:kura_bill/Signup.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
             seedColor: const Color.fromRGBO(255, 255, 255, 1)),
         useMaterial3: true,
       ),
+      home: const Onboardingscreen1(),
     );
   }
 }
