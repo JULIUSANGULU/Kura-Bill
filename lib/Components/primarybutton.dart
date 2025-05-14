@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-class Primarycolor extends StatefulWidget {
+class Primarybutton extends StatefulWidget {
   final String text;
   final Color color;
   final Color textcolor;
-  const Primarycolor(
+  const Primarybutton(
       {super.key,
       required this.text,
       required this.color,
       required this.textcolor});
 
   @override
-  State<Primarycolor> createState() => _PrimarycolorState();
+  State<Primarybutton> createState() => _PrimarycolorState();
 }
 
-class _PrimarycolorState extends State<Primarycolor> {
+class _PrimarycolorState extends State<Primarybutton> {
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -14,7 +14,6 @@ class _Subtext1State extends State<Subtext1> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 296,
       child: Text(
         widget.text,
         textAlign: TextAlign.center,
